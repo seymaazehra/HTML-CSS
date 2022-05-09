@@ -1,0 +1,140 @@
+h1 {
+  color: rgb(190, 216, 169);
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 10;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+  
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+  font-style:oblique;
+  font-size: 30px;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+p.inset {
+  border-style: inset;  
+  border-width: 10px;
+  background-color: darkgoldenrod;
+  
+  
+  
+}
+p.type{
+  font-size: 10px;
+}
+h2{
+  background-color: rgb(219, 199, 83);
+  text-align: center;
+}
+header{
+  color: azure;
+  background-color: goldenrod;
+  font-family: "Sofia", sans-serif;
+  
+}
+#myDIV {
+  width: 1500px;
+  height: 100px;
+  background: rgb(84, 150, 45);
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: rgb(43, 90, 15);}
+  to {background-color: rgb(205, 247, 18);}
+}
+  
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+  
+
+}
+
+* {
+  font-family: myFirstFont;
+}
+div.a {
+  font-size: 150px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+color: rgb(#00F);
+color: #cd5c5c;
+color: white;
+
+color: rgb(50%, 25%, 25%);
+}
+
+.button1 {
+  background-color: rgb(75, 150, 72); 
+  color: rgb(189, 171, 171); 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: rgb(130, 192, 50);
+}
+p.bilgisayar{
+  font-size: 20px;
+  color: rgb(252, 240, 201);
+  text-align: center;
+  
+}
+p.ben{
+  font-size: 25px;
+  color: rgb(255, 214, 139);
+  text-align: center;
+}
+
+
+ 
